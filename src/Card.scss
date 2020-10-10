@@ -21,6 +21,21 @@
     &__item {
         padding: 40px;
         user-select: none;
+        &:hover &{
+            &_wrap {
+                border-color: #2EA8E6;
+            }
+            &_weight{
+                background: #2EA8E6;
+            }
+            &_bottom {
+                &_link {
+                    color: #2EA8E6;
+                    border-bottom-color: #2EA8E6;
+                }
+            }
+
+        }
         &_wrap {
             cursor: pointer;
             background: #F2F2F2;
@@ -79,7 +94,7 @@
             position: absolute;
             bottom: 16px;
             right: 16px;
-            background: #2EA8E6;
+            background: #1698D9;
             width: 80px;
             height: 80px;
             border-radius: 50%;
@@ -111,6 +126,7 @@
                     border-bottom-color: #D91667;
                 }
             }
+
         }
         &-disabled &{
             
@@ -138,6 +154,16 @@
             &_bottom {
                 color: #FFFF66;
             }
+            &:hover &{
+                &_wrap {
+                    color: #B3B3B3;
+                }
+                &_weight{
+                    background: #B3B3B3;
+                }
+    
+            }
         }
+        
     }
 }
