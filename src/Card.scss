@@ -1,0 +1,168 @@
+.card {
+    &__item {
+        padding: 40px;
+        user-select: none;
+        &:hover & {
+            &_wrap {
+                border-color: #2ea8e6;
+            }
+            &_weight {
+                background: #2ea8e6;
+            }
+            &_bottom {
+                &_link {
+                    color: #2ea8e6;
+                    border-bottom-color: #2ea8e6;
+                }
+            }
+        }
+        &_wrap {
+            cursor: pointer;
+            background: #f2f2f2;
+            border: 4px solid #1698d9;
+            box-sizing: border-box;
+            border-radius: 12px;
+            margin-bottom: 14px;
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        &_content {
+            padding: 17px 44px 0 44px;
+        }
+        &_description {
+            font-size: 16px;
+            line-height: 19px;
+            color: #666666;
+            margin-bottom: 5px;
+        }
+        &_name {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 56px;
+        }
+        &_with {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 12px;
+        }
+        &_consist {
+            font-size: 14px;
+            line-height: 16px;
+            color: #666666;
+        }
+        &_img {
+            display: flex;
+            margin-top: auto;
+        }
+        &_bottom {
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #fff;
+            &_link {
+                font-weight: bold;
+                color: #1698d9;
+                border-bottom: 1px dashed #1698d9;
+                text-decoration: none;
+            }
+        }
+        &_weight {
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            background: #1698d9;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #fff;
+            &_number {
+                font-size: 42px;
+                line-height: 40px;
+            }
+            &_text {
+                font-size: 21px;
+                line-height: 22px;
+            }
+        }
+
+        &-active {
+            .card__item {
+                &_wrap {
+                    border-color: #d91667;
+                }
+                &_weight {
+                    background: #d91667;
+                }
+                &_bottom {
+                    &_link {
+                        color: #d91667;
+                        border-bottom-color: #d91667;
+                    }
+                }
+            }
+            &:hover {
+                .card__item {
+                    &_wrap {
+                        border-color: #e52e7a;
+                    }
+                    &_weight {
+                        background: #e52e7a;
+                    }
+                    &_bottom {
+                        &_link {
+                            color: #e52e7a;
+                            border-bottom-color: #e52e7a;
+                        }
+                    }
+                }
+            }
+        }
+        &-disabled {
+            .card__item {
+                &_wrap {
+                    cursor: not-allowed;
+                    color: #b3b3b3;
+                    border-color: #b3b3b3;
+                    &:before {
+                        content: "";
+                        background: #b3b3b3;
+                        opacity: 0.5;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                    }
+                }
+                &_description,
+                &_consist {
+                    color: #b3b3b3;
+                }
+                &_weight {
+                    background: #b3b3b3;
+                }
+                &_bottom {
+                    color: #ffff66;
+                }
+            }
+            &:hover {
+                .card__item {
+                    &_wrap {
+                        color: #b3b3b3;
+                        border-color: #b3b3b3;
+                    }
+                    &_weight {
+                        background: #b3b3b3;
+                    }
+                }
+            }
+        }
+    }
+}
