@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "./Card";
+import CardList from "./CardList";
 import "./App.scss";
 
 function App() {
   return (
     <div className="wrap">
-      <Card />
+      <CardList />
     </div>
   );
 }
