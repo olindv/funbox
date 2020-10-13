@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/funbox/static/css/main.961f61a0.chunk.css",
+    "main.js": "/funbox/static/js/main.0e23470f.chunk.js",
+    "main.js.map": "/funbox/static/js/main.0e23470f.chunk.js.map",
+    "runtime-main.js": "/funbox/static/js/runtime-main.c6ed7ab8.js",
+    "runtime-main.js.map": "/funbox/static/js/runtime-main.c6ed7ab8.js.map",
+    "static/css/2.764ccc25.chunk.css": "/funbox/static/css/2.764ccc25.chunk.css",
+    "static/js/2.d3abf554.chunk.js": "/funbox/static/js/2.d3abf554.chunk.js",
+    "static/js/2.d3abf554.chunk.js.map": "/funbox/static/js/2.d3abf554.chunk.js.map",
+    "index.html": "/funbox/index.html",
+    "precache-manifest.f2e7c85b53a28dcddadede65aae6ac5b.js": "/funbox/precache-manifest.f2e7c85b53a28dcddadede65aae6ac5b.js",
+    "service-worker.js": "/funbox/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/funbox/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.961f61a0.chunk.css.map": "/funbox/static/css/main.961f61a0.chunk.css.map",
+    "static/js/2.d3abf554.chunk.js.LICENSE.txt": "/funbox/static/js/2.d3abf554.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/funbox/static/media/bg.fe0bd159.jpg",
+    "static/media/cat.png": "/funbox/static/media/cat.0a5db29f.png",
+    "static/media/fonts.css": "/funbox/static/media/trebuchetms-webfont.a101faea.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6ed7ab8.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.d3abf554.chunk.js",
+    "static/css/main.961f61a0.chunk.css",
+    "static/js/main.0e23470f.chunk.js"
+  ]
+}
