@@ -45,7 +45,7 @@ const cardList = [
 export function CardList() {
   return (
     <div className="cards">
-      <h2 className="cards__title">Ты&nbsp;сегодня покормил кота?</h2>
+      <h2 className="cards__title">Обкормленный котофей</h2>
       <div className="cards__list card">
         {cardList.map(
           ({
