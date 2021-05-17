@@ -42,6 +42,7 @@ const cardList = [
   },
 ];
 
+
 export function CardList() {
   return (
     <div className="cards">
